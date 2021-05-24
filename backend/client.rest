@@ -1,0 +1,15 @@
+### Register
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+### Login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+### Refresh Token
+POST http://localhost:3000/api/auth/refresh_token
+Content-Type: application/json
+
+### Logout
+DELETE http://localhost:3000/api/auth/logout
+Content-Type: application/json
